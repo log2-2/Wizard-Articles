@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <title>Articles</title>
+  </head>
+  <body>
+    <header>
+      <h1>GTO Wizard - Articles</h1>
+    </header>
+    <main>
+      <h2><a href="https://blog.gtowizard.com/reasons-for-value-betting-in-poker/" target="_blank">Reasons for value betting in poker</a><span class="date">2022/12/06</span></h2>
+      <div class="preface">
+        <p>You’re probably accustomed to thinking of bets as either value or bluff. In this taxonomy, value bets are hands whose value comes from getting called, and bluffs are those whose value comes from getting folds. </p>
+      </div>
+
+      <h2><a href="https://blog.gtowizard.com/how-to-study-gto-solutions/" target="_blank">How to Study GTO Solutions</a><span class="date">2023/01/02</span></h2>
+      <div class="preface">
+        <p>Tools like GTO Wizard and other solvers should not be used to memorize specific strategies. There are simply far too many scenarios to memorize. Instead, these tools are best used to understand big-picture concepts such as stack depth, range advantage, nut advantage, bet sizing, and position.</p>
+      </div>
+
+      <h2><a href="https://blog.gtowizard.com/principles-of-river-play/" target="_blank">Principles of River Play</a><span class="date">2023/02/21</span></h2>
+      <div class="preface">
+        <p>The river offers the least complicated strategy of any betting street. With no further cards to come, hand values are fixed and future board coverage is no longer a consideration.</p>
+      </div>
+
+      <h2><a href="https://blog.gtowizard.com/flop-heuristics-ip-c-betting-in-cash-games/" target="_blank">Flop Heuristics: IP C-Betting in Cash Games</a><span class="date">2023/04/18</span></h2>
+      <div class="preface">
+        <p>Our never-ending quest for money and fame leads us to the flop. We open the button, the big blind calls and the dealer throws out three community cards. After a twenty second tank on KT3r, action is kindly checked over to us. Now what?</p>
+      </div>
+
+      <h2><a href="https://blog.gtowizard.com/how-to-handle-loose-passive-limpers/" target="_blank">How to Handle Loose-Passive Limpers</a><span class="date">2024/03/18</span></h2>
+      <div class="preface">
+        <p>Solver charts and presolved solutions do not offer much in the way of explicit guidance for responding to limpers. This is because players are generally not incentivized to limp from any position save the SB, and even when they are, the ranges with which a solver would limp are quite different from those employed by recreational players and sometimes even professionals who didn’t study these spots.</p>
+      </div>
+    </main>
+    <footer>
+      <div id="footer"></div>
+    </footer>
+    <script>
+      fetch("footer.html")
+      .then((response) => response.text())
+      .then((data) => (document.querySelector("#footer").innerHTML = data));
+    </script>
+  </body>
+</html>
