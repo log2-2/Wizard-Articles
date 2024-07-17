@@ -90,6 +90,7 @@ ul, ol {
 .date {
   font-size: medium;
   text-align: right;
+  margin-left: 10px;
 }
 
 .preface {
